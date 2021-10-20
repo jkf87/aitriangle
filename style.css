@@ -200,7 +200,7 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.right_t-box {
+.rr_t-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -209,7 +209,7 @@ body {
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
 }
-.right_t-bar {
+.rr_t-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -306,10 +306,10 @@ body {
 .animal-explain {
     font-size: 1.5rem;
 }
-.right_t-animal-title {
+.rr_t-animal-title {
     color: #3ba363;
 }
-.right_t-animal-celeb {
+.rr_t-animal-celeb {
     color: #3ba363;
     font-size: 1.2rem;
 }

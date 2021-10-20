@@ -50,21 +50,21 @@
                switch (prediction[0].className) {
                     case "obtuse":
                         resultTitle = "둔각삼각형"
-                        resultExplain = "둔각삼각형은 한 각의 크기가 둔각입니다"
+                        resultExplain = "둔각삼각형은 한 각의 크기가 둔각(90도보다 큼)입니다"
                         resultCeleb = "하나만 둔각이면 둔각삼각형!"
-                        resultpic = "./obtuse.jpg"
+                        resultpic = "./obtuse.png"
                         break;
                     case "acute":
                         resultTitle = "예각삼각형"
-                        resultExplain = "예각삼각형은 세각이 모두 예각이어야 합니다"
+                        resultExplain = "예각삼각형은 세각이 모두 예각(90도보다 작음)이어야 합니다"
                         resultCeleb = "세개 모두 예각일때 예각삼각형!"
-                        resultpic = "./acute.jpg"
+                        resultpic = "./acute.png"
                         break;
-                    case "right_t":
+                    case "rr_t":
                         resultTitle = "직각삼각형"
-                        resultExplain = "직각삼각형은 한 각의 크기가 직각입니다."
+                        resultExplain = "직각삼각형은 한 각의 크기가 직각(90도)입니다."
                         resultCeleb = "하나만 직각이면 직각삼각형"
-                        resultpic = "./right_t.jpg"
+                        resultpic = "./rr_t.png"
                         break;
                     default:
                         resultTitle = "알수없음"
@@ -97,7 +97,7 @@
                     case "acute":
                         labelTitle = "예각삼각형"
                         break;
-                    case "right_t":
+                    case "rr_t":
                         labelTitle = "직각삼각형"
                         break;
                     default:
